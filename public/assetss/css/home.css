@@ -1,0 +1,630 @@
+/* ////////////////////////new home page css///////////////////// */
+
+
+/* 
+body{
+    background-image: url(assets/images/slider_images/home_1/bg.png);
+     background-size: cover;
+      background-position: center top;
+       background-repeat: no-repeat; 
+       height: 1170px; width: 100%;
+
+} */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    body {
+        background-image: url(/assetss/images/slider_images/home_1/bg.png);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 950px;
+        width: 100%;
+    }
+    .viewvideo {
+        padding: 10px 25px 10px 25px;
+        border-radius: 99px;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        float: right;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+    }
+    .mainbackground {
+        margin-top: 265px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .search-input {
+        transition: background 0.25s, border-color 0.25s, color 0.25s;
+        padding: 0.6875em 0.9375em 0.6875em 2.5em;
+        width: 100%;
+        border-right: none;
+        border-radius: 2em 0 0 2em;
+        background: #fff;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: #000000;
+        border: none;
+    }
+    .title {
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 60px;
+        line-height: 80px;
+    }
+    .iconrow {
+        padding: 40px 20px 40px 20px;
+    }
+    /* //////////////////////////////////////// */
+    .radioitems {
+        margin-left: 220px;
+    }
+    /* //////////////////////////////////////// */
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .viewvideo {
+        padding: 10px 25px 10px 25px;
+        border-radius: 99px;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 50px;
+        float: right;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+    }
+    .title {
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 60px;
+        line-height: 80px;
+    }
+    body {
+        background-image: url(/assetss/images/slider_images/home_1/bg.png);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 1170px;
+        width: 100%;
+    }
+    /* //////////////////////////////////////// */
+    .radioitems {
+        margin-left: 220px;
+    }
+    /* //////////////////////////////////////// */
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (width: 1024px) {
+    body {
+        background-image: url(/assetss/images/slider_images/home_1/bg.png);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%;
+    }
+    .viewvideo {
+        padding: 10px 25px 10px 25px;
+        border-radius: 99px;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 50px;
+        float: right;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+    }
+    .mainbackground {
+        margin-top: 210px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .search-input {
+        transition: background 0.25s, border-color 0.25s, color 0.25s;
+        padding: 0.6875em 0.9375em 0.6875em 2.5em;
+        width: 100%;
+        border-right: none;
+        border-radius: 2em 0 0 2em;
+        background: #fff;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: #000000;
+        border: none;
+    }
+    .title {
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 60px;
+        line-height: 80px;
+    }
+    .iconrow {
+        padding: 40px 20px 40px 20px;
+    }
+    .title {
+        text-align: center;
+        font-size: 61px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 60px;
+        line-height: 80px;
+    }
+    /* //////////////////////////////////////// */
+    .radioitems {
+        margin-left: 220px;
+    }
+    /* //////////////////////////////////////// */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-image: url(/assetss/images/slider_images/home_1/bg.png);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 990px;
+        width: 100%;
+    }
+    .viewvideo {
+        padding: 10px 25px 10px 25px;
+        border-radius: 99px;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 50px;
+        float: right;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+    }
+    .mainbackground {
+        margin-top: 300px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .search-input {
+        transition: background 0.25s, border-color 0.25s, color 0.25s;
+        padding: 0.6875em 0.9375em 0.6875em 2.5em;
+        width: 100%;
+        border-right: none;
+        border-radius: 2em 0 0 2em;
+        background: #fff;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: #000000;
+        border: none;
+    }
+    .title {
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 60px;
+        line-height: 80px;
+    }
+    .iconrow {
+        padding: 40px 20px 40px 20px;
+    }
+    .title {
+        text-align: center;
+        font-size: 61px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 60px;
+        line-height: 80px;
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 769px) and (max-width: 1023px) and (orientation: landscape) {
+    .viewvideo {
+        padding: 10px 25px 10px 25px;
+        border-radius: 99px;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 50px;
+        float: right;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+    }
+    .mainbackground {
+        margin-top: 300px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .search-input {
+        transition: background 0.25s, border-color 0.25s, color 0.25s;
+        padding: 0.6875em 0.9375em 0.6875em 2.5em;
+        width: 100%;
+        border-right: none;
+        border-radius: 2em 0 0 2em;
+        background: #fff;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: #000000;
+        border: none;
+    }
+    .title {
+        text-align: center;
+        /* font-size: 80px; */
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 80px;
+        line-height: 80px;
+    }
+    .iconrow {
+        padding: 40px 20px 40px 20px;
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-image: url(/assetss/images/mobilebg.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        /* height: 4170px; */
+        z-index: -1;
+    }
+    .viewvideo {
+        padding: 10px 25px 10px 25px;
+        border-radius: 99px;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        float: right;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+    }
+    .mainbackground {
+        margin-top: 400px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .search-input {
+        transition: background 0.25s, border-color 0.25s, color 0.25s;
+        padding: 0.6875em 0.9375em 0.6875em 2.5em;
+        width: 100%;
+        border-right: none;
+        border-radius: 2em 0 0 2em;
+        background: #fff;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: #000000;
+        border: none;
+    }
+    .title {
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 60px;
+        line-height: 80px;
+    }
+    .iconrow {
+        padding: 40px 20px 40px 20px;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-image: url(/assetss/images/mobilebg.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        /* height: 4170px; */
+        z-index: -1;
+    }
+    .viewvideo {
+        padding: 10px 25px 10px 25px;
+        border-radius: 99px;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 50px;
+        float: right;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        cursor: pointer;
+    }
+    .mainbackground {
+        margin-top: 250px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .languagebutton {
+        margin-left: 66px;
+    }
+    .locationbtn-m {
+        margin-left: 67px;
+    }
+    .rightsideitem {
+        padding-top: 10px;
+    }
+    .radiotext {
+        font-size: 5px;
+    }
+    .title {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        letter-spacing: 8px;
+        opacity: 50%;
+        margin-top: 25px;
+        /* line-height: 80px; */
+    }
+    .trandinitems {
+        display: none;
+    }
+}
+
+.section {
+    background-color: #3D71EB;
+}
+
+.mainmenu {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.backgroundimage {
+    /* z-index: -1; */
+}
+
+.mainmenu {
+    margin-top: -800px;
+}
+
+.languagebtn {
+    padding: 10px 25px 10px 25px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.e {
+    border: none;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.e:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+.s {
+    border: none;
+    color: black;
+}
+
+.s:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.locationbtn-m {
+    padding: 10px 0px 10px 0px;
+}
+
+.locationbtn-m i {
+    color: red;
+}
+
+.locationbtn {
+    padding: 3px 20px 3px 20px;
+    background-color: #bababa;
+    width: 205px;
+    border-radius: 12px;
+    font-size: larger;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.radiotext {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.radiobtn {
+    width: 20px;
+    height: 20px;
+    outline-color: yellow;
+    background-color: #3D71EB;
+}
+
+.search-group {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.search-group i {
+    color: #ffffff;
+}
+
+.search-input,
+.button-search {
+    padding: 0.6875em 2em;
+    border: none;
+}
+
+.search-input {
+    transition: background 0.25s, border-color 0.25s, color 0.25s;
+    padding: 0.6875em 0.9375em 0.6875em 2.5em;
+    width: 100%;
+    border-right: none;
+    border-radius: 2em 0 0 2em;
+    background: #fff;
+    box-sizing: border-box;
+    /* font-size: 20px; */
+    color: #000000;
+    border: none;
+}
+
+input.search-input:focus {
+    border: none;
+    outline: none;
+}
+
+.button-search {
+    transition: background 0.25s, color 0.25s;
+    border: none;
+    border-radius: 0 2em 2em 0;
+    background: #3D71EB;
+    box-shadow: 4px 5px 13px -6px #000000;
+}
+
+.button-search:hover {
+    transition: background 0.25s, color 0.25s;
+    background: #000;
+    color: #fff;
+}
+
+.trandinitems {
+    background-color: #F2F2F2;
+    padding: 25px 50px 25px 50px;
+}
+
+.iconrow tr {
+    text-align: center;
+}
+
+.iconrow tr td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.icontext1 {
+    font-weight: bolder;
+    color: #535353;
+}
+
+.icontext2 {
+    color: #A9A9A9;
+}
+
+.totuser {
+    background-color: #115272;
+    padding: 50px 10px 50px 10px;
+}
+
+.totuser tr td {
+    text-align: center;
+}
+
+.totuser1 {
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.totuser2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.mainfooter {
+    padding: 30px 20px 30px 20px;
+}
+
+.mainfooter tr th {
+    padding-bottom: 10px;
+}
+
+.mainfooter tr td {
+    padding-bottom: 10px;
+}
+
+.mainfooter tr td a {
+    text-decoration: none;
+    color: #000;
+}
+
+.socialmedia {
+    padding-bottom: 15px;
+}
+
+.socialmediatext {
+    font-weight: bold;
+}
+
+a {
+    color: #000;
+}
+
+
+/* ////////////////////////new home page css///////////////////// */
